@@ -1,0 +1,10 @@
+{
+	"cSpell.words": [
+		"kc"
+	],
+	"cSpell.language": "en",
+	"github.copilot.enable": {
+        "*": true,
+        "markdown": true,
+    }
+}
