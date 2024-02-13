@@ -1,0 +1,28 @@
+﻿@model IEnumerable<TodoItem>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @foreach(var item in Model)
+    {
+        <div class="todo-item">
+            <input type="checkbox" 
+                   id="@item.Id" 
+                   name="@item.Id" @if(item.IsCompleted) { <text>checked</text> } 
+                   hx-post="@Url.Action("Toggle", "Todo", new { id = item.Id })"
+                   hx-trigger="click"/>
+            <label for="@item.Id">@item.Title</label>
+        </div>
+    }
+    <form hx-post="@Url.Action("Add", "Todo")"
+          hx-swap="beforebegin">
+        <input name="title" placeholder="Todo title.."/>
+        <button class="btn btn-secondary" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+            </svg>
+        </button>
+    </form>
+    
+</div>

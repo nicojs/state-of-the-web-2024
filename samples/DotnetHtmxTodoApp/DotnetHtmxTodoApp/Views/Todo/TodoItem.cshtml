@@ -1,0 +1,9 @@
+@model TodoItem
+<div class="todo-item">
+    <input type="checkbox" 
+           id="@Model.Id" 
+           name="@Model.Id" @if(Model.IsCompleted) { <text>checked</text> } 
+           hx-post="@Url.Action("Toggle", "Todo", new { id = Model.Id })"
+           hx-trigger="click"/>
+    <label for="@Model.Id">@Model.Title</label>
+</div>
