@@ -122,6 +122,7 @@ public class TodoItemController {
     }
 
     @HxRequest
+    @HxTrigger("itemsChanged")
     @DeleteMapping(value = "/{id}")
     @ResponseStatus(value = HttpStatus.OK)
     public void deleteItem(@PathVariable("id") Long id) {
