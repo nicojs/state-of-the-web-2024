@@ -21,7 +21,6 @@ import com.infosupport.stateoftheweb2024.htmxexample.models.TodoItem;
 import com.infosupport.stateoftheweb2024.htmxexample.models.TodoItemForm;
 
 import io.github.wimdeblauwe.htmx.spring.boot.mvc.HtmxRequest;
-import io.github.wimdeblauwe.htmx.spring.boot.mvc.HtmxResponse;
 import io.github.wimdeblauwe.htmx.spring.boot.mvc.HxRequest;
 import io.github.wimdeblauwe.htmx.spring.boot.mvc.HxTrigger;
 
