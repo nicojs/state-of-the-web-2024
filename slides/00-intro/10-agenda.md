@@ -1,11 +1,9 @@
 ### Agenda
 
-1. React server components (Nico)
-1. Angular Renaissance (JP)
-1. HTMX - Rich UI zonder JavaScript (Odin & Nico)
-1. Storybook (Odin)
-1. Reservelijst
-   - Web components
-   - Signals
+1. Historical context
+1. React server components
+1. HTMX
+1. Storybook
+1. Angular Renaissance
 
 <!-- .slide: class="is-fancy1" -->

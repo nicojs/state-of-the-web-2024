@@ -1,0 +1,45 @@
+.htmx .dark-hero {
+  background: url(/img/htmx-dark.svg), linear-gradient(#1f1f1f, #2d2d2d);
+  height: 240px;
+  line-height: 240px;
+  text-align: center;
+  vertical-align: center;
+  color: whitesmoke;
+  margin-top: -2em;
+  box-shadow: inset 0px 11px 8px -10px #262626, inset 0px -11px 8px -10px #262626;
+  border-bottom: 1px solid whitesmoke;
+}
+.htmx .full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.htmx .dark-hero .logo {
+  font-size: 100px;
+}
+.htmx .dark-hero.appear * {
+  opacity: 1;
+  top: 10px;
+}
+.htmx .dark-hero * {
+  opacity: 0;
+  transition: all 500ms ease-in;
+}
+.htmx .logo {
+  color: inherit;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.htmx .dark-hero .blue {
+  color: #3d72d7;
+}
+.htmx .dark-hero.appear * {
+  opacity: 1;
+  top: 10px;
+}
+.htmx .dark-hero * {
+  opacity: 0;
+  transition: all 500ms ease-in;
+}

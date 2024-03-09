@@ -1,3 +1,9 @@
+<!-- .slide: class="is-module" data-background="#0f0f11" -->
+
+![Angular](/img/angular.png)
+
+--- 
+
 ### Since last time
 
 - Nico.js gave a talk on Angular 2 in 2016

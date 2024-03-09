@@ -1,4 +1,6 @@
-## A brief history...
+## Historical context
+
+<!-- .slide: class="is-module" -->
 
 ---
 
