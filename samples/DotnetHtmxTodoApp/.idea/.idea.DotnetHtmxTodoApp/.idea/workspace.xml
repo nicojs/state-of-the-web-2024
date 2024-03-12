@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa41be7f-ef09-4d9b-9249-76324a8b48e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DotnetHtmxTodoApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotnetHtmxTodoApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetHtmxTodoApp/Controllers/TodoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetHtmxTodoApp/Controllers/TodoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetHtmxTodoApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetHtmxTodoApp/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetHtmxTodoApp/Views/Todo/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetHtmxTodoApp/Views/Todo/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DotnetHtmxTodoApp/Views/Todo/TodoItem.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetHtmxTodoApp/Views/Todo/TodoItem.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../slides/30-storybook/00-title.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../slides/30-storybook/00-title.md" afterDir="false" />
-    </list>
+    <list default="true" id="fa41be7f-ef09-4d9b-9249-76324a8b48e7" name="Changes" comment="dotnet applicatie uitgebreid" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,36 +18,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2cHRKzqgEXfAvGmevUrukbUF8Uc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.44869214&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.44869214",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Razor&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Razor"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\OdinL\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\OdinL\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\OdinL\\AppData\\Local\\Symbols\\src&quot;
+    "rider.external.source.directories": [
+      "C:\\Users\\OdinL\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\OdinL\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\OdinL\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DotnetHtmxTodoApp: http">
     <configuration name="DotnetHtmxTodoApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DotnetHtmxTodoApp/DotnetHtmxTodoApp.csproj" />
@@ -112,14 +111,26 @@
       <updated>1707766460876</updated>
       <workItem from="1707766464230" duration="4250000" />
       <workItem from="1710069666454" duration="1480000" />
-      <workItem from="1710267828766" duration="4062000" />
+      <workItem from="1710267828766" duration="4530000" />
     </task>
+    <task id="LOCAL-00001" summary="dotnet applicatie uitgebreid">
+      <option name="closed" value="true" />
+      <created>1710272204375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710272204375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="dotnet applicatie uitgebreid" />
+    <option name="LAST_COMMIT_MESSAGE" value="dotnet applicatie uitgebreid" />
   </component>
 </project>
