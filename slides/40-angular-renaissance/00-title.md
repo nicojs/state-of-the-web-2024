@@ -22,7 +22,7 @@
 - A fancy new reactive primitive, signals!
 - Type-safe forms
 - More TypeScript strictness: `null` checks, no implicit `any`s
-- More functional notations: no more classes for route guards, route resolvers and HTTP interceptors. Also: `inject()`
+- More functional notations: no more classes for route guards, route resolvers and HTTP interceptors. Also: `inject()` and `@Input()` for route params
 
 ---
 
