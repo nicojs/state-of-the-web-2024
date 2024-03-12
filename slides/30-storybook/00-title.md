@@ -53,6 +53,8 @@ test('Checks if the form is valid', () => {
 });
 ```
 
+<!-- .element class="smaller-text-code" -->
+
 ---
 
 ### What can storybook also do?
