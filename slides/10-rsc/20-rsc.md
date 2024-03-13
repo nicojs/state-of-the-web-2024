@@ -1,4 +1,4 @@
-## With RSC
+## With RSC <small>(+ SSR)</small>
 
 ![alt text](../../img/image-2.png)
 
@@ -70,3 +70,16 @@ export async function Posts() {
 🤯 
 
 <!-- .element style="font-size: 3em; text-align: center" class="fragment" -->
+
+---
+
+### Comparison
+
+With server components:
+
+- Static data can be loaded on the server <em>once</em>
+- <!-- .element class="fragment" --> Server components <em>never</em> end up in the client bundle
+- <!-- .element class="fragment" --> Data is <em>streamed in</em> when it is available (works together with <code>&lt;Suspense&gt;</code>)
+- <!-- .element class="fragment" --> Dealing with Promises is as simple as <code>async</code>/<code>await</code>
+
+

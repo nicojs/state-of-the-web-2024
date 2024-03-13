@@ -48,7 +48,7 @@ class Posts extends React.Component {
 
 ##### React hooks
 
-```jsx []
+```jsx [|5-12|]
 function Posts() {
   const [posts, setPosts] = useState([]);
 
@@ -89,15 +89,14 @@ ReactDOM.render(<Posts />, document.getElementById('root'));
 
 ### Without SSR
 
-![](../../img/image.png)
+![alt text](../../img/10-react-history_image.png)
 
-<!-- .element class="img-react-dark" -->
+<!-- .element class="img-react" -->
 
 source: https://www.joshwcomeau.com/react/server-components/
 
 <!-- .element class="source" -->
 
-<!-- .slide: class="is-empty react-dark" -->
 
 Without server-side rendering, the client waits for the server to respond before it can render.
 
@@ -105,15 +104,13 @@ Without server-side rendering, the client waits for the server to respond before
 
 ### With SSR
 
-![with ssr](../../img/image-1.png)
+![alt text](../../img/10-react-history_image-1.png)
 
-<!-- .element class="img-react-dark" -->
+<!-- .element class="img-react" -->
 
 source: https://www.joshwcomeau.com/react/server-components/
 
 <!-- .element class="source" -->
-
-<!-- .slide: class="is-empty react-dark" -->
 
 With server-side rendering, the server sends a fully rendered page to the client, which can render it immediately.
 
@@ -121,12 +118,16 @@ With server-side rendering, the server sends a fully rendered page to the client
 
 ### Comparison
 
-With SSR
+With server-side rendering:
 
+- We need a (NodeJS) server
+  - Get a BFF for free
 - Get first paint sooner
 - "Hydration" is needed for interactivity
   - This calls the server again to get the same data
-- Run _the same code twice_, once on the server and once on the client
+- Run _the same code twice_, 
+  1. on the server
+  2. on the client
 
 🤔 Why hit the same server twice?
 
