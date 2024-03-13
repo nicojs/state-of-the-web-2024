@@ -28,7 +28,7 @@
 
 ### Yet to come
 
-- Deliver more of signals: easier debugging, optional Zone.js, signal-based inputs/queries
+- Deliver more of signals: easier debugging, optional Zone.js, signal-based `output()`, signal-based forms/routing/`HttpClient`?
 - HMR improvements
 - Modernize the TX:
   - experimental Jest support has been introduced
