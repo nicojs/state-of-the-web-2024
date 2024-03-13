@@ -1,0 +1,34 @@
+.smaller-text-code{
+    font-size: 0.99rem !important;
+}
+
+.reveal pre.sm {
+    font-size: 0.4em;
+}
+
+.reveal pre.xs {
+    font-size: 0.3em;
+}
+
+.reveal .source {
+    font-size: 0.5em;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.reveal .source, .reveal .source a {
+    opacity: .5;
+    color: currentColor;
+}
+
+.reveal .react-dark {
+    background: #0e141b;
+}
+
+.reveal .react-dark, .reveal .react-dark h3 {
+    color: #eee;
+}
+
+.reveal .react-dark h3:first-of-type::before {
+    content: unset;
+}

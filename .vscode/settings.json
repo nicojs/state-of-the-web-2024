@@ -6,5 +6,8 @@
 	"github.copilot.enable": {
         "*": true,
         "markdown": true,
-    }
+	},
+	"markdown.copyFiles.destination": {
+		"**/slides/**/*.md": "${documentWorkspaceFolder}/img/${documentBaseName}_${fileName}"
+	}
 }

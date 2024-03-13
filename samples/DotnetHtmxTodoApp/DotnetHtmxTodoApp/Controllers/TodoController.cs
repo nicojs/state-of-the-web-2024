@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DotnetHtmxTodoApp.Models;
+using Htmx;
 
 namespace DotnetHtmxTodoApp.Controllers;
 
@@ -24,8 +25,18 @@ public class TodoController : Controller
     {
         return View(_todoItems);
     }
+    
+    // [HttpGet("active")]
+    // public IActionResult GetActive() {
+    //     return viewIndexOrTodoItemsFragment(TodoFilter.Active);
+    // }
+    //
+    // [HttpGet("/completed")]
+    // public IActionResult GetCompleted() {
+    //     return viewIndexOrTodoItemsFragment(TodoFilter.Completed);
+    // }
 
-    [HttpPost]
+    [HttpPut]
     public IActionResult Toggle(int id)
     {
         var todoItem = _todoItems.FirstOrDefault(x => x.Id == id);
@@ -34,7 +45,7 @@ public class TodoController : Controller
             todoItem.IsCompleted = !todoItem.IsCompleted;
         }
 
-        return Ok();
+        return PartialView("TodoItem", todoItem);
     }
     
     [HttpPost]
@@ -50,9 +61,32 @@ public class TodoController : Controller
         return PartialView("TodoItem", todoItem);
     }
 
+    [HttpDelete("{Id}")]
+    public IActionResult Delete(int Id)
+    {
+        _todoItems.RemoveAll(i => i.Id == Id);
+        return Ok();
+    }
+    
+    public IActionResult PatchTitle(string title, int id)
+    {
+        var todoItem = _todoItems.FirstOrDefault(x => x.Id == id);
+        if (todoItem != null)
+        {
+            todoItem.Title = title;
+        }
+        return PartialView("TodoItem", todoItem);
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+
+    public enum TodoFilter {
+        All,
+        Active,
+        Completed
     }
 }
