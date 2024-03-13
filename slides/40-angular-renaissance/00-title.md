@@ -13,16 +13,16 @@
 
 ### The past few years though...
 
-- Standalone APIs
-- Change detection using `OnPush` becoming the new default?
-- SSR and SSG with `@angular/ssr`
-- Vite and esbuild for faster builds
-- Control flow syntax with `@if` and `@for`
-- Angular Material switched to MDC-based components
-- A fancy new reactive primitive, signals!
-- Type-safe forms
-- More TypeScript strictness: `null` checks, no implicit `any`s
-- More functional notations: no more classes for route guards, route resolvers and HTTP interceptors. Also: `inject()` and `@Input()` for route params
+- Standalone APIs <!-- .element class="fragment" data-fragment-index="1" -->
+- Change detection using <!-- .element class="fragment" data-fragment-index="2" --> `OnPush` <!-- .element class="fragment" data-fragment-index="2" --> becoming the new default? <!-- .element class="fragment" data-fragment-index="2" -->
+- SSR and SSG with <!-- .element class="fragment" data-fragment-index="3" --> `@angular/ssr` <!-- .element class="fragment" data-fragment-index="3" -->
+- Vite and esbuild for faster builds <!-- .element class="fragment" data-fragment-index="4" -->
+- Control flow syntax with <!-- .element class="fragment" data-fragment-index="5" --> `@if` <!-- .element class="fragment" data-fragment-index="5" --> and <!-- .element class="fragment" data-fragment-index="5" --> `@for` <!-- .element class="fragment" data-fragment-index="5" -->
+- Angular Material switched to MDC-based components <!-- .element class="fragment" data-fragment-index="6" -->
+- A fancy new reactive primitive, signals! <!-- .element class="fragment" data-fragment-index="7" -->
+- Type-safe forms <!-- .element class="fragment" data-fragment-index="8" -->
+- More TypeScript strictness: <!-- .element class="fragment" data-fragment-index="9" --> `null` <!-- .element class="fragment" data-fragment-index="9" --> checks, no implicit <!-- .element class="fragment" data-fragment-index="9" --> `any`s <!-- .element class="fragment" data-fragment-index="9" -->
+- More functional notations: no more classes for route guards, route resolvers and HTTP interceptors. Also:  <!-- .element class="fragment" data-fragment-index="10" --> `inject()` <!-- .element class="fragment" data-fragment-index="10" --> and `@Input()` <!-- .element class="fragment" data-fragment-index="10" --> for route params <!-- .element class="fragment" data-fragment-index="10" -->
 
 ---
 
