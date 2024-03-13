@@ -8,6 +8,7 @@
         "markdown": true,
 	},
 	"markdown.copyFiles.destination": {
-		"**/slides/**/*.md": "${documentWorkspaceFolder}/img/${documentBaseName}_${fileName}"
+		"**/slides/**/*.md": "${documentWorkspaceFolder}/img/slides/${documentBaseName}_${fileName}",
+		"**/labs/**/*.md": "${documentWorkspaceFolder}/img/labs/${documentBaseName}_${fileName}",
 	}
 }

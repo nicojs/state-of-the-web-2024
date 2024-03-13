@@ -1,4 +1,4 @@
-## Historical context
+## Some context
 
 <!-- .slide: class="is-module" -->
 

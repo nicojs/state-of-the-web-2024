@@ -1,6 +1,6 @@
 ### Agenda
 
-1. Historical context
+1. Some context
 1. React server components
 1. HTMX
 1. Storybook
