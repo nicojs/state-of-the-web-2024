@@ -4,13 +4,14 @@
 
 ---
 
-![](/img/ja-nee-formulier-foto.png) <!-- .element class="img-500" -->
+![](/img/ja-nee-formulier-foto.png) 
 
 ---
 
 <video width="960" controls>
   <source src="/img/Opname zorginfo applicatie ja nee formulier.mp4" type="video/mp4">
 </video>
+
 
 ---
 
